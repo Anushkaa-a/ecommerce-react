@@ -9,7 +9,7 @@ import App from './App.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
       <CartProvider>
-    < BrowserRouter>
+    < BrowserRouter basename='/ecommerce-react/'>
     <App/>
     </BrowserRouter>
     </CartProvider>
